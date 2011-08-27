@@ -1,0 +1,196 @@
+body {
+    background-color : #e8e8e8;
+}
+
+#body {
+    width : 100%;
+    height : 100%;
+    display : block;
+    
+}
+
+#main {
+    clear : both;
+    display : block;
+    margin : auto;
+    overflow : hidden;
+    width : 97%;
+}
+
+#left_menu {
+    background-color : #b0c4de;
+    display : inline;
+    float : left;
+    font-size : 9pt;
+    height : 100%;
+    max-width : 26%;
+    overflow : auto;
+    vertical-align : top;
+    width : 200px;
+    border-radius: 6px;
+
+}
+
+#left_menu ul {
+    list-style-type : square;
+    list-style-position : inside;
+    border : 0;
+    padding : 0;
+    margin : 0;
+}
+
+#left_menu a:hover, #left_col a:visited, #left_col a:active, #left_col a:link {
+    font-weight : lighter;
+    color : #2370b6;
+}
+
+#center_blog {
+    width : 71%;
+    height : 100%;
+    vertical-align : top;
+    float : left;
+    display : inline;
+    margin : auto;
+    margin-left : 5px;
+    border-left : 1px dashed #808080;
+    border-right : 1px dashed #808080;
+    padding-left : 5px;
+    padding-right : 5px;
+}
+
+h2.title {
+    text-transform : capitalize;
+    text-align : center;
+    font-size : 26px;
+    margin : 0;
+    padding : 2px 10px;
+}
+
+h2.separa {
+    margin : 0;
+    padding : 2px 10px;
+    border-bottom : 1px solid #ffffff;
+}
+
+a.titoli:link {
+    text-transform : capitalize;
+    text-decoration : none;
+    color : #6699cc;
+}
+
+a.titoli:hover {
+    text-transform : capitalize;
+    font-family : Comics Sans;
+    font-size : 22pt;
+    text-decoration : underline;
+    font-style : normal;
+}
+
+a.titoli:visited {
+    text-transform : capitalize;
+    text-decoration : none;
+    color : #21759b;
+    font-size : 20pt;
+}
+
+a.logout:link {
+    padding-left : 78%;
+    text-decoration : none;
+    color : #185d99;
+}
+
+a.logout:hover {
+    padding-left : 78%;
+    font-size : 12pt;
+    text-decoration : underline;
+    font-style : italic;
+}
+
+a.logout:visited {
+    padding-left : 78%;
+    text-decoration : none;
+    color : #185d99;
+}
+
+a:link {
+    text-decoration : none;
+    color : #185d99;
+}
+
+a:hover {
+    font-size : 13pt;
+    text-decoration : underline;
+    font-style : italic;
+}
+
+a:visited {
+    text-decoration : none;
+    color : green;
+}
+
+div.p_author {
+    text-transform : capitalize;
+    font-size : 13px;
+    padding-left : 88%;
+}
+
+span.c_title {
+    text-transform : capitalize;
+    padding-left : 12%;
+}
+
+span.c_author {
+    text-transform : capitalize;
+    padding-left : 15%;
+    color : #777777;
+}
+
+div.accapo {
+    padding-left : 19%;
+    width : 48%;
+    height : 50%;
+}
+
+div.login {
+    padding-left : 88%;
+}
+a.c_edit:link {
+    padding-left : 63%;
+    text-decoration : none;
+    color : #185d99;
+    font-size : 8pt;
+}
+
+a.c_edit:hover {
+    padding-left : 55%;
+    font-size : 9pt;
+    text-decoration : underline;
+    font-style : italic;
+}
+
+a.c_edit {
+    padding-left : 63%;
+    font-size : 8pt;
+    text-decoration : none;
+    color : #185d99;
+}
+
+a.mod:link {
+    padding-left : 73%;
+    font-size : 7.5pt;
+    text-decoration : none;
+    color : #185d99;
+}
+
+a.linkz:visited {
+    color : #185d99;
+}
+
+div.rounded_STYLE {
+    background-color : #F8C000;
+    border-radius: 8px;
+}
+input:focus {
+	border: 1px solid #3C3;
+	background-color:#99FF99;
+}	
